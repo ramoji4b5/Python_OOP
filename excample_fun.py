@@ -10,5 +10,5 @@ def fib_gen():
     print('---', a)
     a,b=b,a+b
     count = count +1
+fib_gen()
 
-fs=fib_gen()

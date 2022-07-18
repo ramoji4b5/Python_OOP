@@ -18,6 +18,7 @@ def fib_gen():
     a,b=b,a+b
 
 fs=fib_gen()
+
 print(next(fs))
 print(next(fs))
 print(next(fs))
