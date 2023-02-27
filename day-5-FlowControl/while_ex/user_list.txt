@@ -1,0 +1,10 @@
+1. Welcome Ramoji,You have registered successfully
+2. Welcome lakshmoji,You have registered successfully
+3. Welcome shivaji,You have registered successfully
+4. Welcome Anusha,You have registered successfully
+5. Welcome xyz,You have registered successfully
+6. Welcome Rojarani,You have registered successfully
+7. Welcome Leela,You have registered successfully
+8. Welcome Vihan,You have registered successfully
+9. Welcome Ammiraju,You have registered successfully
+10. Welcome Sujata,You have registered successfully
