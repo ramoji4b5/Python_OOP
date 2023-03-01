@@ -1,5 +1,7 @@
 """
-Let’s understand the flow control in python through another example. Let’s imagine ‘n’ number of students who have to go to the examination hall to give their paper. But some of them are lazy and for lazy students, there are some special rules.
+Let’s understand the flow control in python through another example. Let’s imagine ‘n’ number of students
+who have to go to the examination hall to give their paper. But some of them are lazy and for lazy students,
+there are some special rules.
 
 Special rules:
 No marks deduction if arrived at the examination hall on time.
