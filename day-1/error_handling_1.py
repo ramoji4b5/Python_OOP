@@ -4,7 +4,7 @@ print('Python version is', sys.version[:3])
 
 try:
 
-    Some_invalid_code
+    x=1/0
 except NameError as err:  # 'as' is needed here in Python 3.x
     print(err, 'Error Caused')
 

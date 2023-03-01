@@ -7,7 +7,7 @@ def SayHello(name):
         Name = input()
         SayHello(Name)
 
-#SayHello("Ramoji")
+SayHello("Ramoji")
 #SayHello()
 
 ##############
