@@ -31,7 +31,7 @@ print(num1) #accessing the variable outside the scope
 """deleting variables"""
 no_of_chocolates=10
 del no_of_chocolates
-print(no_of_chocolates)
+#print(no_of_chocolates)
 
 """Object References"""
 message="Welcome to India"
@@ -101,21 +101,25 @@ while n < 11:
     n += 1
 
 # My Calculator
+import sys
+print("please enter two numbers.")
 a = int(input())
 b = int(input())
-print('enter operation: +, -, *, /')
+print('enter operation: +, -, *, /,q')
 opt = input()
-
-if opt == '+':
-    print(a + b)
-elif opt == '-':
-    print(a - b)
-elif opt == '*':
-    print(a * b)
-elif opt == '/':
-    print(a / b)
-else:
-    print('invalid input')
+while True:
+    if opt == '+':
+        print(a + b)
+    elif opt == '-':
+        print(a - b)
+    elif opt == '*':
+        print(a * b)
+    elif opt == '/':
+        print(a / b)
+    elif opt == 'q':
+        sys.exit()
+    else:
+        print('invalid input')
 
 
 
