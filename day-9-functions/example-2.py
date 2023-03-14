@@ -70,3 +70,35 @@ hello("Anna", "Ema", "Sarah")
 
 
 
+def add1(a,b):
+    return a+b
+##required arguments
+print("example for required argument is {}".format(add1(2,3)))
+
+def add2(a=1,b=2):
+    return a+b
+
+print(f"example for default argument is: {add2()}")
+
+def add3(**kargs):
+    sum = 0
+    for value in kargs.values():
+        sum = sum+value
+    return sum
+ex_dist ={"0":0,"1":1}
+
+print("example for key word argument is:{}".format(add3(**ex_dist)))
+
+def add4(*numbers):
+    sum = 0
+    for i in numbers:
+        sum = sum+i
+    return sum
+count = [1,2,3,4,5]
+print("example for variable length argument is:{}".format(add4(1,2,3,5)))
+print(f"example for variable length argument is: {add4(*count)}")
+
+
+
+
+

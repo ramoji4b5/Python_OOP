@@ -21,4 +21,4 @@ for i in range(len(string_var)):
 print('\n')
 # Method 3: Iterating using enumerate()
 for k, v in enumerate(string_var):
-    print(v, end=' ')
+    print(k,v, end=' ')
